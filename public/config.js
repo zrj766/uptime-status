@@ -11,19 +11,16 @@ window.Config = {
   // 只需填写域名部分，默认为官网域名
   // 因官网 API 时不时的会 CROS 报错，可填自定义反代域名
   // 详见 https://github.com/yb/uptime-status/ 说明
-  ApiDomain: 'api.uptimerobot.com',
+  ApiDomain: 'black-leaf-d71a.zrj766.workers.dev',
 
   // UptimeRobot Api Keys
   // 支持 Monitor-Specific 和 Read-Only 两只 Api Key
   ApiKeys: [
-    'm784488775-dd1ad84b209c05f8e185c33e',
-    'm784490063-7b5da437e7f1e0d67613714d',
-    'm784497419-de55aa09902ccb3ab22d548a',
-    'm784496436-71a4bf7b1e3bdf7756be131b',
+    'ur271460-6232233287bfb0e00461f828',
   ],
 
   // 是否显示监测站点的链接
-  ShowLink: true,
+  ShowLink: false,
 
   // 日志天数
   // 虽然免费版说仅保存60天日志，但测试好像API可以获取90天的
@@ -34,7 +31,7 @@ window.Config = {
   Navi: [
     {
       text: 'Homepage',
-      url: 'https://status.org.cn/'
+      url: 'https://status.zrj96.com/'
     },
     {
       text: 'GitHub',
